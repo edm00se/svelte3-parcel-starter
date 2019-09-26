@@ -6,6 +6,7 @@
   "scripts": {
     "dev": "parcel src/index.html --open",
     "build": "parcel build src/index.html",
+    "build:ci": "parcel build src/index.html --public-url . --log-level 2",
     "test": "jest",
     "test:coverage": "npm run test -- --coverage"
   },
