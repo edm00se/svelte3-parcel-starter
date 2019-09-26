@@ -6,23 +6,41 @@
   "scripts": {
     "dev": "parcel src/index.html --open",
     "build": "parcel build src/index.html",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest",
+    "test:coverage": "npm run test -- --coverage"
   },
   "dependencies": {},
   "devDependencies": {
     "@babel/core": "^7.2.0",
+    "@babel/plugin-transform-modules-commonjs": "^7.6.0",
     "@babel/polyfill": "^7.6.0",
+    "@babel/preset-env": "^7.6.2",
+    "babel-jest": "^24.9.0",
+    "jest": "^24.9.0",
     "parcel-bundler": "^1.12.3",
     "parcel-plugin-svelte": "^4.0.4",
-    "svelte": "^3.12.1"
+    "svelte": "^3.12.1",
+    "svelte-jest": "^0.3.0"
   },
   "keywords": [
     "svelte",
     "parcel",
-    "starter"
+    "starter",
+    "jest"
   ],
   "licence": "MIT",
   "browserslist": [
     "last 1 chrome versions"
-  ]
+  ],
+  "jest": {
+    "transform": {
+      "\\.js$": "babel-jest",
+      "\\.svelte$": "svelte-jest"
+    },
+    "moduleFileExtensions": [
+      "js",
+      "json",
+      "svelte"
+    ]
+  }
 }
