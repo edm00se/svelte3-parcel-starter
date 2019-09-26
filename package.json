@@ -1,0 +1,28 @@
+{
+  "name": "svelte-parcel-starter",
+  "version": "1.0.0",
+  "description": "svelte 3 + parcel ftw!",
+  "main": "src/index.html",
+  "scripts": {
+    "dev": "parcel src/index.html --open",
+    "build": "parcel build src/index.html",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@babel/core": "^7.2.0",
+    "@babel/polyfill": "^7.6.0",
+    "parcel-bundler": "^1.12.3",
+    "parcel-plugin-svelte": "^4.0.4",
+    "svelte": "^3.12.1"
+  },
+  "keywords": [
+    "svelte",
+    "parcel",
+    "starter"
+  ],
+  "licence": "MIT",
+  "browserslist": [
+    "last 1 chrome versions"
+  ]
+}
