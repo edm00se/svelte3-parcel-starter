@@ -1,6 +1,6 @@
 # svelte3-parcel-starter
 
-A starter for svelte3 bundled with parcel.
+A starter for svelte3 bundled with parcel and tested via jest.
 
 ## Installation
 
@@ -12,6 +12,7 @@ A starter for svelte3 bundled with parcel.
 
 - `npm run dev` - parcel's development server
 - `npm run build` - production build, builds to `dist/`
+- `npm test` - runs jest
 
 ## Contributing
 
