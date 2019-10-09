@@ -2,6 +2,8 @@
 
 A starter for svelte3 bundled with parcel and tested via jest.
 
+![NPM Test Status](https://github.com/edm00se/svelte3-parcel-starter/workflows/Node.js%20Testing/badge.svg) ![GitHub Pages Deploy Status](https://github.com/edm00se/svelte3-parcel-starter/workflows/Deploy%20to%20GitHub%20Pages/badge.svg)
+
 ## Installation
 
 - `git clone https://github.com/edm00se/svelte3-parcel-starter.git`
