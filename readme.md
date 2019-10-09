@@ -27,6 +27,8 @@ A starter for svelte3 bundled with parcel and tested via jest.
 - [svelte](https://svelte.dev/)
 - [parcel](https://parceljs.org/)
 - [parcel-plugin-svelte](https://github.com/DeMoorJasper/parcel-plugin-svelte/)
+- [jest](https://jestjs.io/)
+- [svelte-jest](https://github.com/ktsn/svelte-jest)
 
 ## License
 
