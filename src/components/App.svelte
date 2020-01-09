@@ -6,7 +6,7 @@
 			<li><a href="https://svelte.dev/" target="_blank" rel="noopener noreferrer">Svelte</a></li>
 		</ul>
 		<p>
-			Hello { name }, the time is <span class="the-time">{ hours }:{ minutes }:{ seconds }</span>
+			Hello { name }, the time is <span class="the-time">{ hours }:{ minutes }:{ seconds } { tz }</span>
 		</p>
 	</div>
 </div>
@@ -55,11 +55,12 @@
 	  };
 	});
 
-	let hours, minutes, seconds;
+	let hours, minutes, seconds, tz;
 
 	$: {
-	  hours = time.getHours();
-	  minutes = time.getMinutes();
-	  seconds = time.getSeconds();
+	  hours = time.getHours().toLocaleString('en-US', {minimumIntegerDigits: 2, useGrouping:false});
+	  minutes = time.getMinutes().toLocaleString('en-US', {minimumIntegerDigits: 2, useGrouping:false});
+		seconds = time.getSeconds().toLocaleString('en-US', {minimumIntegerDigits: 2, useGrouping:false});
+		tz = time.toLocaleTimeString().split(' ')[1]; // no reason for not using toLocaseTimeString other than keeping hours, minutes, seconds, tz all separate
 	}
 </script>
