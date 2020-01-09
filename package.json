@@ -8,7 +8,8 @@
     "build": "parcel build src/index.html",
     "build:ci": "parcel build src/index.html --public-url . --log-level 2",
     "test": "jest",
-    "test:coverage": "npm run test -- --coverage"
+    "test:coverage": "npm run test -- --coverage",
+    "postinstall": "rm -rf ./.cache && node ./postinstall.js"
   },
   "dependencies": {},
   "devDependencies": {
@@ -31,7 +32,10 @@
   ],
   "licence": "MIT",
   "browserslist": [
-    "last 1 chrome versions"
+    "> 1%",
+    "last 2 versions",
+    "ie 11",
+    "not ie <= 10"
   ],
   "jest": {
     "transform": {
