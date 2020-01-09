@@ -9,7 +9,7 @@
     "build:ci": "parcel build src/index.html --public-url . --log-level 2",
     "test": "jest",
     "test:coverage": "npm run test -- --coverage",
-    "postinstall": "rm -rf ./.cache && node ./postinstall.js"
+    "postinstall": "rm -rf .cache && node postinstall.js"
   },
   "dependencies": {},
   "devDependencies": {
