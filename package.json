@@ -18,7 +18,7 @@
     "@babel/preset-env": "^7.6.2",
     "babel-jest": "^24.9.0",
     "jest": "^24.9.0",
-    "parcel-bundler": "^1.12.3",
+    "parcel-bundler": "^1.12.4",
     "parcel-plugin-svelte": "^4.0.4",
     "svelte": "^3.12.1",
     "svelte-jest": "^0.3.0"
