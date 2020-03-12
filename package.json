@@ -13,16 +13,16 @@
   },
   "dependencies": {},
   "devDependencies": {
-    "@babel/core": "^7.2.0",
-    "@babel/plugin-transform-modules-commonjs": "^7.6.0",
-    "@babel/polyfill": "^7.6.0",
-    "@babel/preset-env": "^7.6.2",
+    "@babel/core": "^7.8.7",
+    "@babel/plugin-transform-modules-commonjs": "^7.8.3",
+    "@babel/polyfill": "^7.8.7",
+    "@babel/preset-env": "^7.8.7",
     "babel-jest": "^24.9.0",
     "jest": "^24.9.0",
     "parcel-bundler": "^1.12.4",
-    "parcel-plugin-svelte": "^4.0.4",
-    "svelte": "^3.12.1",
-    "svelte-jest": "^0.3.0"
+    "parcel-plugin-svelte": "^4.0.6",
+    "svelte": "^3.19.2",
+    "svelte-jest": "^0.3.1"
   },
   "keywords": [
     "svelte",
