@@ -1,1 +1,0 @@
-{"version":3,"sources":["styles.css"],"names":[],"mappings":"AAAA,UAEE,WACF,CACA,KACE,iIAEF","file":"main.3d0c2ecb.css","sourceRoot":"../src","sourcesContent":["html,\nbody {\n  height: 100%;\n}\nbody {\n  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial,\n    sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';\n}"]}
