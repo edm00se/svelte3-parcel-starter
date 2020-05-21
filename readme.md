@@ -4,6 +4,13 @@ A starter for svelte3 bundled with parcel and tested via jest.
 
 [![NPM Test Status](https://github.com/edm00se/svelte3-parcel-starter/workflows/Node.js%20Testing/badge.svg)](https://github.com/edm00se/svelte3-parcel-starter/actions?workflow=Node.js+Testing) [![GitHub Pages Deploy Status](https://github.com/edm00se/svelte3-parcel-starter/workflows/Deploy%20to%20GitHub%20Pages/badge.svg)](https://github.com/edm00se/svelte3-parcel-starter/actions?workflow=Deploy+to+GitHub+Pages)
 
+## Includes
+
+- [svelte 3](https://svelte.dev/)
+- ecmascript (es6+), transpiled by [babel](https://babeljs.io/) 7.9.0+
+- [jest](https://jestjs.io/) unit testing
+- [parcel](https://parceljs.org/) dev server and builds
+
 ## Installation
 
 - `git clone https://github.com/edm00se/svelte3-parcel-starter.git`
