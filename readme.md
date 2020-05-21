@@ -6,10 +6,11 @@ A starter for svelte3 bundled with parcel and tested via jest.
 
 ## Includes
 
+- [parcel](https://parceljs.org/) dev server and builds
 - [svelte 3](https://svelte.dev/)
 - ecmascript (es6+), transpiled by [babel](https://babeljs.io/) 7.9.0+
+- sass/scss support, both global import in js and in svelte component style blocks, via parcel, [sass](https://github.com/sass/dart-sass), and [svelte-preprocess](https://github.com/sveltejs/svelte-preprocess)
 - [jest](https://jestjs.io/) unit testing
-- [parcel](https://parceljs.org/) dev server and builds
 
 ## Installation
 

@@ -11,16 +11,17 @@
 	</div>
 </div>
 
-<style>
+<style type="scss">
 	.wrapper {
 		display: flex;
 		flex-wrap: wrap;
 		justify-content: center;
 		align-items: center;
 		height: 100%;
-	}
-	.content {
-		text-align: center;
+
+		> .content {
+			text-align: center;
+		}
 	}
 	h1 {
 		font-weight: 300;
