@@ -2,6 +2,10 @@
 
 A starter for svelte3 bundled with parcel and tested via jest.
 
+## UPDATE: Archival of Repo
+
+Parcel 2 is out and will be a major change should this repo continue. If I bother to create a starter/template, I'll update this note here and link to it.
+
 [![NPM Test Status](https://github.com/edm00se/svelte3-parcel-starter/workflows/Node.js%20Testing/badge.svg)](https://github.com/edm00se/svelte3-parcel-starter/actions?workflow=Node.js+Testing) [![GitHub Pages Deploy Status](https://github.com/edm00se/svelte3-parcel-starter/workflows/Deploy%20to%20GitHub%20Pages/badge.svg)](https://github.com/edm00se/svelte3-parcel-starter/actions?workflow=Deploy+to+GitHub+Pages)
 
 ## Includes
